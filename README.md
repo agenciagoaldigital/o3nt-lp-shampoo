@@ -55,7 +55,7 @@ add_filter( 'woocommerce_add_to_cart_redirect', function ( $url ) {
 
 ## Rastreamento (GTM)
 
-- Container **GTM-MSDHGGGW** instalado no `<head>` + `<noscript>`.
+- Container **GTM-KNDXR7F5** instalado no `<head>` + `<noscript>`.
 - Pixel Meta e Google (GA4/Ads) devem ser criados **como tags dentro do GTM**.
 - A LP dispara `begin_checkout` no `dataLayer` ao clicar em comprar
   (`currency`, `value`, `items[].item_id`) — pronto pra virar InitiateCheckout (Meta)
